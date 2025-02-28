@@ -1,5 +1,7 @@
 # Quadratic Equation Solver
 
+Program to solve quadratic equadratic equations
+
 ## How to use:
 1. clone repo
 2. open folder with project in terminal
@@ -16,3 +18,7 @@ print "py main.py" in terminal
     For any file location on you machine, you can specify absolute path:
 
     "py main.py C:\some_intermediate_folders\coefficients.txt"
+
+## Revert-commit
+
+Revert commit is present in the commit history. It cancels commit that deletes all code from interactive.py 
