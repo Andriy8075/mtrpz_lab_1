@@ -8,7 +8,7 @@ def validate_input(prompt):
         print(f"Error. Expected a valid real number, got \"{prompt}\" instead")
         exit(1)
 
-def main():
+def interactive():
     a = validate_input(input("a = "))
     if a == 0:
         print("a can not be 0")
@@ -18,6 +18,3 @@ def main():
 
     print(f"Equation is: ({a}) x^2 + ({b}) x + ({c}) = 0")
     solve_quadratic_equation(a, b, c)
-
-if __name__ == "__main__":
-    main()
