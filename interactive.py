@@ -1,4 +1,4 @@
-from general_script import solve_quadratic_equation
+from quadratic_equation_solver import solve_quadratic_equation
 
 def validate_input(prompt):
     try:
